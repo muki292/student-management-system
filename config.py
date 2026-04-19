@@ -1,0 +1,1 @@
+MONGO_URI = "mongodb+srv://mukil3826_db_user:<password>@cluster0.9pampd2.mongodb.net/?appName=Cluster0"

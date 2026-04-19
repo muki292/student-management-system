@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management</title>
+</head>
+<body>
+
+<h1>Student List</h1>
+
+<a href="/add">Add Student</a>
+
+<ul>
+    {% for student in students %}
+        <li>
+            {{ student.name }} - {{ student.age }} - {{ student.course }}
+            <a href="/delete/{{ student._id }}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
